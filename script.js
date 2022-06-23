@@ -20,7 +20,7 @@ const fillers = {
 
   If anyone who break the rules, they will be send it to the $place2, and learn the rule there.
 
-  I wish there are no one will break the rule, and wish you all have a $adj day. 
+  I wish there are no one will break the rule, and wish you all have a $adj day.
   `;
   
   
