@@ -1,22 +1,26 @@
 const fillers = {
-    adventurer: ["My dude", "Bro", "Adventurer", "Traveller", "Fellow", "Citizen", "Ashen One", "Dragonborn", "Cool person", "Tarnished", "$adventurer and $adventurer", "$adventurer, $adventurer, and $adventurer", "Geoff"],
-    pre: ["Fra", "Tro", "Gre", "Pan", "Ast", "Ara"],
-    post: ["gria", "ston", "gott","-on-the-lee", "ora", "Ara", "uwu"],
-    people: ["kindly", "meek", "brave", "wise", "sacred", "cherished", "honored", "forgotten", "apathetic", "mystic", "orca"],
-    item: ["axe", "staff", "book", "cloak", "shield", "club", "sword", "magic gloves", "galvel", "fists", "mace", "potato"],
-    num: ["two", "three", "eleven", "so many", "too many", "an unsatisfying number of", "barely any", "an unspecified amount of", "surely a satisfactory number of"],
-    looty: ["gleaming", "valuable", "esteemed", "rare", "exalted", "scintillating", "kinda gross but still usefull", "complete garbage"],
-    loots: ["coins", "chalices", "ingots", "hides", "victory points", "gems","scrolls", "bananas", "noodles", "goblins", "CS Majors", "college credits"],
-    baddies: ["orcs", "glubs", "fishmen", "cordungles", "mountain trolls", "college professors", "dragon", "evil $adventurer", "agents of chaos"],
-    message: ["call", "txt", "post", "decree", "shoutz", "tweets", "choiche", "hearkens", "harkening", "harkenening", "harkenenening", "...wait, no! Come back", "Watermelon"],
-    
+    people: ["friend", "son","partner", "citizens", "brother", "sister","homie","$people and $people"],
+    place: ["Pandora","the golden age", " the Universe", "Lucias", "Demon grave"],
+    treasure:["money", "gold", "diamond", "ruby", "pearl", "Elder Ring"],
+    weapon: ["Epic weapon", "Legendary weapon", "Legendary skin", "Ak-47"],
+    first:["Uwu", "Www", "Ahha","Boba", "Gugu", "Prprpr", "Jzuci"],
+    last:["Oooooo", "Guugi", "Peter", "Ben", "Dragon", "Asdfghjkl"],
+    adj:["gorgeous", "beautiful", "handsome", "brilliant", "fantastic", "dangrous", "stupid", "XXXX"],
+    verb:["eat", "drink", "sleep", "dig", "play", "have sex", "skip a day", "$verb and $verb"],
+    place2:["Jail", "Elementary school", "UCSC", "Landfill", "crematorium","cemetery"],
   };
   
-  const template = `$adventurer, heed my $message!
+  const template = `Welcome, my best $people!
   
-  I have just come from $pre$post where the $people folk are in desperate need. Their town has been overrun by $baddies. You must venture forth at once, taking my $item, and help them.
-  
-  It is told that the one who can rescue them will be awarded with $num $looty $loots. Surely this must tempt one such as yourself!
+  Welcome to the world of $place. You can find whatever you wants here, $treasure, $weapon or everthing that you want.
+
+  However, you have to follow some rules.
+
+  Base on our $adj president $first $last, every people who live in here, can not $verb.
+
+  If anyone who break the rules, they will be send it to the $place2, and learn the rule there.
+
+  I wish there are no one will break the rule, and wish you all have a $adj day. 
   `;
   
   
